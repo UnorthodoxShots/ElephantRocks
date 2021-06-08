@@ -18,7 +18,7 @@
 	width: 90%;
 	height: 350px;
 	text-align: center;
-	background:url(https://raw.githubusercontent.com/UnorthodoxShots/ElephantRocks/main/img/elephantsunset.jpg); 
+	background:url("https://raw.githubusercontent.com/UnorthodoxShots/ElephantRocks/main/img/elephantsunset.jpg"); 
 	background-position: center bottom;
 	background-size: cover;
 	background-repeat: none;
