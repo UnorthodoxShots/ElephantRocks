@@ -1,0 +1,83 @@
+{display:block;}
+
+*{margin: 0px;}
+
+#topbar {
+	background-color:orange;
+	width: 100%;
+		}
+#topbar a{color: black;
+		font-size: 2vw;
+		padding-left: 3px;
+		}
+
+#banner{ 
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	height: 350px;
+	text-align: center;
+	background:url(C:/Users/Dell/Desktop/ElephantRocks/img/elephantsunset.jpg); 
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: none;
+	}
+
+#ElephantRocks{
+	font-size: 5vw;
+	color: orange;
+	position: relative;
+	top: 1%;
+	font-family: 'Stick', sans-serif;
+	-webkit-text-stroke: .01px black;
+}
+
+
+#centerinfohead{
+	font-size: 4vw;
+	text-align: center;
+}
+
+#centerinfo{
+	float: left;
+	width: 45%;
+
+	text-align: left;
+	padding: 10px;
+	background-color: ;
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: none;
+}
+
+#centerinfo h2{font-size: 2em;}
+
+#centerinfo p{
+	font-size: 1em;
+	color: #000;}
+
+
+#factspic{
+	float: right;
+	width: 45%;
+	height: 350px;}
+
+@media screen and (max-width:650px) {
+	#centerinfo{width: 95%;
+				padding: 10px;}
+
+	#factspic{display: none;
+		clear: both;
+		width:95%}
+	{}
+
+}
+
+#bottom{ 
+	clear: both;
+	background-color: orange;
+	text-align: center;
+	font-size: 2vw;
+	width: 100%;
+}
